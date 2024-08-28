@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatinho</title>
+    <link rel="icon" href="chat-square-dots-_1_.png" type="image/png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="navbar-brand">Chatinho</a>
+                <button class="btn btn-logout">Logout</button>
+            </div>
+        </div>
+    </header>
+    <div class="chat-container">
+        <div class="messages">
+            <div class="chat-message">
+                <img src="https://via.placeholder.com/50" alt="Foto de Usuário 1" class="profile-photo">
+                <div class="message-content">
+                    <div class="message-header">Dieguinho <span class="message-time">10:15 AM</span></div>
+                    <div class="message-text">ok!</div>
+                    <div class="read-time">Lido às 10:17 AM</div>
+                </div>
+            </div>
+            <div class="chat-message sent">
+                <img src="https://via.placeholder.com/50" alt="Minha Foto" class="profile-photo">
+                <div class="message-content">
+                    <div class="message-header">Você <span class="message-time">10:17 AM</span></div>
+                    <div class="message-text">Sor, já sei a música da minha formatura</div>
+                    <div class="read-time">Lido às 10:18 AM</div>
+                </div>
+            </div>
+            <div class="chat-message">
+                <img src="https://via.placeholder.com/50" alt="Foto de Usuário 1" class="profile-photo">
+                <div class="message-content">
+                    <div class="message-header">Usuário 1 <span class="message-time">10:18 AM</span></div>
+                    <div class="message-text">Primeiro tem que se formar</div>
+                    <div class="read-time">Lido às 10:19 AM</div>
+                </div>
+            </div>
+            <div class="chat-message sent">
+                <img src="https://via.placeholder.com/50" alt="Minha Foto" class="profile-photo">
+                <div class="message-content">
+                    <div class="message-header">Você <span class="message-time">10:19 AM</span></div>
+                    <div class="message-text">Poxa sor 😢</div>
+                    <div class="read-time">Lido às 10:20 AM</div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" class="form-control " placeholder="Digite sua mensagem...">
+            <button class="btn btn-send" type="button">Enviar</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

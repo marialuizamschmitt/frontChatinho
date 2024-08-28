@@ -1,0 +1,229 @@
+body {
+    background-color: #f0f8ff; /* Um tom suave de azul para o fundo */
+}
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-btn {
+    background-color: green;
+    border-color: green;
+}
+.login-btn:hover {
+    background-color: green;
+    border-color: green;
+}
+.form-control:focus {
+    border-color: green;
+    box-shadow: none;
+}
+.form-label {
+    color: green; 
+}
+
+/* LISTAR*/
+
+body {
+    background-color: #f0f8ff; /* Um tom suave de azul para o fundo */
+    padding-top: 70px; /* Espaço para o header fixo */
+}
+.header {
+    background-color: green;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header .btn-logout {
+    background-color: white;
+    color: green;
+    border: 1px solid white;
+}
+.header .btn-logout:hover {
+    background-color: #f8f9fa;
+    color: green;
+}
+.contacts-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.contact-item {
+    padding: 15px;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-item:last-child {
+    border-bottom: none;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+.contact-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.contact-name {
+    font-size: 1.2rem;
+    color: green;
+}
+.contact-status {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+.contact-btn {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+}
+.contact-btn:hover {
+    background-color: green;
+    color: white;
+}
+
+/* mensagens */
+body {
+    background-color: #f0f8ff; 
+    padding-top: 70px; 
+}
+.header {
+    background-color: green; 
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header .btn-logout {
+    background-color: white;
+    color: green;
+    border: 1px solid white;
+}
+.header .btn-logout:hover {
+    background-color: #f8f9fa;
+    color: green;
+}
+.chat-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.messages {
+    flex-grow: 1;
+    overflow-y: scroll;
+    margin-bottom: 15px;
+}
+.chat-message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+.chat-message .profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.chat-message .message-content {
+    background-color: #e9ecef;
+    padding: 10px 15px;
+    border-radius: 15px;
+    position: relative;
+    max-width: 70%;
+}
+.chat-message .message-content::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #e9ecef transparent transparent;
+}
+.chat-message .message-header {
+    font-weight: bold;
+}
+.chat-message .message-time {
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+.chat-message .read-time {
+    font-size: 0.7rem;
+    margin-top: 5px;
+    text-align: right;
+}
+.chat-message.sent {
+    flex-direction: row-reverse;
+}
+.chat-message.sent .profile-photo {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.chat-message.sent .message-content {
+    background-color: green;
+    color: white;
+}
+.chat-message.sent .message-content::after {
+    left: auto;
+    right: -10px;
+    border-color: transparent transparent transparent green;
+}
+.chat-message.sent .read-time {
+    text-align: left;
+}
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+.chat-input .form-control {
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.chat-input .btn-send {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.chat-input .btn-send:hover {
+    background-color: green;
+    color: white;
+}
+
